@@ -1,0 +1,281 @@
+/* shared section */
+section {
+    margin: 130px;
+    margin-top: 120px;
+}
+
+.description-primary {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header-primary {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.primary-h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* banner section starts */
+.new-year-banner {
+    /* outline: 5px solid green; */
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 177px 340px;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+
+.new-year-banner>h3,
+.new-year-banner>h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.new-year-banner h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* discount section starts here */
+
+.discount-container {
+    text-align: center;
+}
+
+.discount-h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+
+.discount-h2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+/* welcome section starts here */
+
+.welcome-container {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    padding: 130px 100px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-note {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+
+.welcome-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.join {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* time-date-place section starts here */
+.time-date-place-container {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    padding: 115px;
+    border-radius: 10px;
+    box-shadow: 2px solid rgba(255, 255, 255, 0.534);
+}
+
+.time-date-place-container span {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.join-text {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.btn-join {
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: 0;
+}
+
+/* offer sections starts here */
+
+.offer-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+.celebration-image {
+    padding: 40px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+
+}
+
+/* holiday sale section starts here */
+.holiday-sale {
+    text-align: center;
+}
+
+.holiday-sale h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sale span {
+    color: #F00;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 32%;
+
+}
+
+/* subscribe section starts here */
+
+.subscribe-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px;
+}
+
+input {
+    border: none;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 50px 0px 0px 50px;
+    width: 40%;
+    background: #FFF;
+    margin: none;
+}
+
+.subscribe-form button {
+    margin: none;
+    border: none;
+    padding: 25px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+/* footer starts here */
+footer {
+    background: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding: 120px;
+}
+
+footer hr {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.contact-container,
+.copywrite-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links {
+    margin: 50px;
+    
+}
+.social-links a {
+    margin: 24px;
+}
+
+.number,
+.website {
+    display: flex;
+}
+
+.copywrite-container {
+    margin-top: 50px;
+}
+
+.unsubscribe {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+}
