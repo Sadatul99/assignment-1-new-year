@@ -188,6 +188,14 @@ section {
 .holiday-sale span {
     color: #F00;
 }
+/* portfolio section starts here */
+.image-container img {
+    width: 32%;
+    transition: transform 0.3s ease-in-out;
+}
+.image-container img:hover {
+    transform: scale(1.05) ;
+}
 
 .image-container {
     display: flex;
@@ -196,10 +204,7 @@ section {
     gap: 20px;
 }
 
-.image-container img {
-    width: 32%;
 
-}
 
 /* subscribe section starts here */
 
@@ -254,6 +259,10 @@ footer hr {
 .copywrite-container {
     display: flex;
     justify-content: space-between;
+}
+.contact-container img {
+    aspect-ratio: 1;
+    width: 20px;
 }
 
 .social-links {
